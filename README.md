@@ -1,2 +1,1 @@
-# BOOKI
-agency website 
+# booki-starter-pack
