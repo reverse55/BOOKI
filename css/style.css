@@ -9,13 +9,14 @@
     --filter-bg-color: #DEEBFF;
 }
 
+
 .fa-solid {
     color: var(--main-color);
 }
 
-body {
+.header {
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .main-container {
@@ -23,6 +24,31 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.margin-top {
+    margin-top: -20px;
+}
+
+.alignement {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.alignement img{width: auto; height: 20px; margin: 20px}
+.padding{padding: 500px}
+
+
+.blue:hover {
+    color: blue;
+    text-decoration: overline;
+}
+
+.localisation {
+    border: 1px black solid;
+    width: 2%;
+    border-radius: 20px 20px
 }
 
 a {
