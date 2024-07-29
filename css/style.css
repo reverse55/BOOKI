@@ -208,12 +208,12 @@ input[type="submit"] {
     padding: 2px 0px;
 }
 
+
 .FrameGlobal {
     margin: 30px 0px;
     gap: 20px;
     display: flex;
     justify-content: space-between
-
 }
 
 .carte {
@@ -232,17 +232,10 @@ input[type="submit"] {
     border: 5px solid white;
     box-sizing: border-box;
     object-fit: cover;
-}
+} 
 
 .Frame16 {
-    padding: 0px 15px;
-}
-
-.h3 {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18.78px;
+    padding: 0px 15px;  
 }
 
 .Frame16 p {
@@ -253,10 +246,18 @@ input[type="submit"] {
     padding: 10px 0px;
 }
 
+h6{font-weight: 700; font-size: 14px;}
+
 .stars {
     margin-top: -4px;
 }
 
+.black {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+}
 
 
 
@@ -386,45 +387,87 @@ a {
 
 
 .conteneur {
-    margin: 30px 0px;
+    margin: 60px 0px;
     max-width: 1440px;
     padding: 0 30px;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .title {
     margin: 0 40px;
-    font-size: 22px
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 25.83px;
+
+
 }
 
 .FrameGlobal1 {
     margin: 30px 0px;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
 
 }
 
 .carte1 {
     background-color: white;
-    width: 250px;
+    width: 265px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px 20px 20px 20px;
-    height: 207px;
+    height: 439px;
 
 }
 
 .carte1 img {
-    width: 250px;
+    width: 265px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     box-sizing: border-box;
     object-fit: cover;
+    box-sizing: border-box;
+
+}
+
+.Frame17 {}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    margin: 10px 20px
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    background-color: var(--main-bg-color);
+    margin: 0px 45px;
+}
+
+.containerF {
+    margin: 0px 20px;
+    padding: 25px 0px;
+    display: flex;
+}
+
+.propos .first{font-weight: 700; font-size: 18px;} 
+
+.Nosh{margin: 0px 200px}
+.Nosh .first{font-weight: 700;font-size: 18px;} 
+.assistance{margin: 0px 50px} 
+.assistance .first{font-weight: 700;font-size: 18px;}
 
 
 
