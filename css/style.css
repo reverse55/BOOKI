@@ -418,11 +418,29 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .conteneur {
     margin: 60px 0px;
     max-width: 1440px;
     padding: 0 30px;
-    box-sizing: border-box;
+
 }
 
 .title {
@@ -436,15 +454,15 @@ a {
 }
 
 .FrameGlobal1 {
-    margin: 30px 0px;
+    margin: 30px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
 .carte1 {
     background-color: white;
-    width: 265px;
+    width:100%;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px 20px 20px 20px;
     height: 439px;
@@ -452,7 +470,7 @@ a {
 }
 
 .carte1 img {
-    width: 265px;
+    width: 300px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     box-sizing: border-box;
@@ -461,14 +479,31 @@ a {
 
 }
 
-.Frame17 {}
-
 h5 {
     font-size: 16px;
     font-weight: 700;
     line-height: 18.78px;
     margin: 10px 20px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
