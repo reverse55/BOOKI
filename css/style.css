@@ -24,7 +24,7 @@
 
 .alignment {
 
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
@@ -281,9 +281,11 @@ input[type="submit"] {
     border: 5px solid white;
     box-sizing: border-box;
     object-fit: cover;
-} 
+}
 
-h6{font-size: 16px;}
+h6 {
+    font-size: 16px;
+}
 
 
 p {
@@ -465,17 +467,18 @@ h4 {
 .global {
     margin: 30px 0;
     display: flex;
-    gap: 30px; justify-content: center
-
+    gap: 30px;
+    justify-content: center
 }
 
 
 .picture {
     background-color: white;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 20px 20px 20px 20px; height: 100%;
-    
-    
+    border-radius: 20px 20px 20px 20px;
+    height: 100%;
+
+
 
 }
 
@@ -536,7 +539,12 @@ footer {
     padding: 25px 0px;
     display: flex;
 }
-.about, .accommodation, .assistance{width:33%}
+
+.about,
+.accommodation,
+.assistance {
+    width: 33%
+}
 
 
 .para {
@@ -637,7 +645,7 @@ footer {
         margin-top: 50px;
     }
 
-    
+
     .populaires-cards a {
         width: 100%;
     }
@@ -681,8 +689,10 @@ footer {
     }
 
 
-    .picture img {height :76%;}
-        
+    .picture img {
+        height: 76%;
+    }
+
 
 
 
@@ -756,10 +766,17 @@ footer {
         text-align: center;
     }
 
+    .menu li {
+        border-bottom: 2px solid rgba(242, 242, 242, 1);
+        ;
+    }
 
 
 
 
+
+
+    .headline{margin-top: 30px;}
 
     .search {
         width: 100%;
@@ -852,7 +869,8 @@ footer {
 
     .populaires {
         background-color: var(--main-bg-color);
-        border-radius: 0px; margin:0
+        border-radius: 0px;
+        margin: 0
     }
 
     .populaires-cards {
@@ -903,7 +921,9 @@ footer {
     }
 
     .last {
-        width: 102%; font-size: 17px; font-weight: 700;
+        width: 102%;
+        font-size: 17px;
+        font-weight: 700;
     }
 
 
